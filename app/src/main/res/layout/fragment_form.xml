@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Main">
+
+    <EditText
+        android:id="@+id/image_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="114dp"
+        android:ems="10"
+        android:filterTouchesWhenObscured="false"
+        android:hint="@string/image_url"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="114dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:filterTouchesWhenObscured="false"
+        android:hint="@string/inserta_el_titulo"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="114dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:filterTouchesWhenObscured="false"
+        android:hint="@string/inserta_el_director"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:translationZ="5dp"
+        android:stateListAnimator="@null"
+
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="114dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:filterTouchesWhenObscured="false"
+        android:hint="@string/guardar"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextViewEdits" />
+
+    <Button
+        android:id="@+id/borrar"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        android:elevation="5dp"
+        android:translationZ="5dp"
+        android:stateListAnimator="@null"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="114dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:filterTouchesWhenObscured="false"
+        android:hint="@string/borrarBDD"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextViewEdits" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

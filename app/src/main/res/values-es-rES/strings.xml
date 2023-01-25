@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicacio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inserta_el_titulo">Inserta el titulo</string>
+    <string name="inserta_el_director">Inserta el director</string>
+    <string name="guardar">Guardar</string>
+    <string name = "preferences"> Preferencias</string>
+    <string name="home">Home</string>
+    <string name="list">List</string>
+    <string name="form">Form</string>
+    <string name="titulo">Name</string>
+    <string name="director">Name</string>
+    <string name="listaTitulo">Título</string>
+    <string name="listaDirector">Director</string>
+    <string name="todo">TODO</string>
+    <string name="image_url">URL DE IMAGEN</string>
+    <string name="borrarBDD"> Borrar BDD</string>
+    <string name="borrar"> BORRAR</string>
+    <string name="Menu_principal"> Menú Principal </string>
+    <string name="Username"> Usuario </string>
+    <string name="password"> Contraseña </string>
+    <string name="signin"> Signin </string>
+    <string name="save">guardar</string>
+    <string name="config">config</string>
+    <string name="idioma">idioma</string>
+    <string name="castellano">castellano</string>
+    <string name="catala">catalán</string>
+    <string name="ingles">inglés</string>
+    <string name="logout">logout</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
